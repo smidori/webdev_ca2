@@ -11310,11 +11310,39 @@ textarea.form-control-lg {
 table {
 	width:auto;
 	margin:auto;
-	border:1px solid black;
+	/*border:1px solid black; */
  	border-collapse:collapse;
  	margin-bottom:10px;
 }
 
 th, td {
-	border:1px solid #777;
+	border:1px solid #6c757d;
+}
+
+thead {
+  color: whitesmoke;
+  font-size: medium;
+  background-image: linear-gradient(to right,red, orange);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f9ddb1;
+}
+
+.inactive thead {
+  color: whitesmoke;
+  font-size: medium;
+  background-image: linear-gradient(to right,grey, black);
+}
+
+.inactive tbody tr:nth-child(odd) {
+  background-color: #b3b3b3;
+}
+
+thead, tbody, tfoot, tr, td, th{
+  padding: 0.5ch;
+}
+
+th{
+  text-align: center;
 }
