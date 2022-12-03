@@ -11319,30 +11319,35 @@ th, td {
 	border:1px solid #6c757d;
 }
 
+/*change the layout of query*/
 thead {
   color: whitesmoke;
   font-size: medium;
   background-image: linear-gradient(to right,red, orange);
 }
 
+/*apply zebra striped table*/
 tbody tr:nth-child(odd) {
   background-color: #f9ddb1;
 }
 
+/*change the color of thead when the user click on another query button*/
 .inactive thead {
   color: whitesmoke;
   font-size: medium;
   background-image: linear-gradient(to right,grey, black);
 }
-
+/*change the color of zebra striped when the user click on another query button*/
 .inactive tbody tr:nth-child(odd) {
   background-color: #b3b3b3;
 }
 
+/*give a bit of space between the content table and table*/
 thead, tbody, tfoot, tr, td, th{
   padding: 0.5ch;
 }
 
+/*centralized the content inside th*/
 th{
   text-align: center;
 }
